@@ -1,0 +1,68 @@
+<form name=forml>
+<script>
+function kali()
+{
+ var a=document.forml.a.value;
+ var a=document.forml.b.value;
+ var c=a*b;
+ document.forml.c.value=c;
+}
+
+function bagi()
+{
+ var a=document.forml.a.value;
+ var a=document.forml.b.value;
+ var c=a/b;
+ document.forml.c.value=c;
+}
+
+function tambah()
+{
+ var a=document.forml.a.value;
+ var a=document.forml.b.value;
+ var c=a+b;
+ document.forml.c.value=c;
+}
+
+function kurang()
+{
+ var a=document.forml.a.value;
+ var a=document.forml.b.value;
+ var c=a-b;
+ document.forml.c.value=c;
+}
+
+</script>
+
+
+<meta name="viewsport" contetnt="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/w3.css">
+<center>
+
+<div class="w3-container"
+	<div class="w3-panel w3-blue">
+	
+<center>
+<h1>PROGRAM KALKULATOR
+</div>
+	
+	<div class="w3-panel w3-purple">
+	<p>
+	<center>
+	<table>	
+		<tr><td><font color=white>A<td>:<input name=a>
+		<tr><td><font color=white>B<td>:<input name=b>
+		<tr><td colspan=2><hr>
+		<tr><td><font color=white>C<td>:<input name=c>
+	</table>
+	</p>
+	<div>
+	
+	<div class="w3-panel w3-round-xxlarge w3-cyan">
+	<p>
+	<input type="button" class="w3-button w3-red w3-circle" value="*" onclick="kali()">
+	<input type="button" class="w3-button w3-green w3-circle" value="/" onclick="bagi()">
+	</p>
+</div>
+	
+	
